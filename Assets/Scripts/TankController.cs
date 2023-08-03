@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class TankController
 {
-    // Start is called before the first frame update
+      
     private TankModel tankModel;
     private TankView tankView;
     private Rigidbody rb;
@@ -16,7 +16,7 @@ public class TankController
         tankModel.SetTankController(this);
         tankView.SetTankController(this);
 
-
+        tankView.ChangeColor(tankModel.color);
 
     }
     public void Move(float movement, float movementSpeed)
