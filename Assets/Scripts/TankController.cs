@@ -1,7 +1,7 @@
 //Tank Controller Script
 using UnityEngine;
 
-public class TankController
+public class TankController : MonoBehaviour
 {
       
     private TankModel tankModel;
