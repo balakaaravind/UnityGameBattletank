@@ -73,14 +73,14 @@ public class TankView : MonoBehaviour
     //        tankController.Rotate(rotation, tankController.GetTankModel().rotationSpeed);
     //}
 
-    void Update()
-    {
-        if (movement != 0)
-            tankController.Move(movement, tankController.GetTankModel().movementSpeed);
+    //void Update()
+    //{
+    //    if (movement != 0)
+    //        tankController.Move(movement, tankController.GetTankModel().movementSpeed);
 
-        if (rotation != 0)
-            tankController.Rotate(rotation, tankController.GetTankModel().rotationSpeed);
-    }
+    //    if (rotation != 0)
+    //        tankController.Rotate(rotation, tankController.GetTankModel().rotationSpeed);
+    //}
 
 
     private void Movement()
@@ -111,6 +111,6 @@ public class TankView : MonoBehaviour
         }
     }
 
-   
+
 
 }

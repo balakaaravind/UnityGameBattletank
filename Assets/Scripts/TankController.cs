@@ -1,9 +1,8 @@
 //Tank Controller Script
 using UnityEngine;
 
-public class TankController : MonoBehaviour
+public class TankController
 {
-      
     private TankModel tankModel;
     private TankView tankView;
     private Rigidbody rb;
@@ -31,7 +30,7 @@ public class TankController : MonoBehaviour
         Quaternion deltaRotation = Quaternion.Euler(vector * Time.deltaTime);
         rb.MoveRotation(rb.rotation * deltaRotation);
     }
-    
+
 
     public TankModel GetTankModel()
     {
