@@ -865,6 +865,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CompleteLevelArt
       objectReference: {fileID: 0}
+    - target: {fileID: 1633404186159690, guid: 0aac6aef14f064c3fb626270cff2683b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4366463266053016, guid: 0aac6aef14f064c3fb626270cff2683b, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -1266,3 +1270,72 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1954512433}
   m_CullTransparentMesh: 1
+--- !u!1001 &4124446149587858011
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4124446149451619065, guid: a2dfe3ebf3f741240b40762e543c76fa, type: 3}
+      propertyPath: m_Name
+      value: TyreSmoke
+      objectReference: {fileID: 0}
+    - target: {fileID: 4124446149451619070, guid: a2dfe3ebf3f741240b40762e543c76fa, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4124446149451619070, guid: a2dfe3ebf3f741240b40762e543c76fa, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.04763148
+      objectReference: {fileID: 0}
+    - target: {fileID: 4124446149451619070, guid: a2dfe3ebf3f741240b40762e543c76fa, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.173652
+      objectReference: {fileID: 0}
+    - target: {fileID: 4124446149451619070, guid: a2dfe3ebf3f741240b40762e543c76fa, type: 3}
+      propertyPath: m_LocalScale.z
+      value: -0.0025216877
+      objectReference: {fileID: 0}
+    - target: {fileID: 4124446149451619070, guid: a2dfe3ebf3f741240b40762e543c76fa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4124446149451619070, guid: a2dfe3ebf3f741240b40762e543c76fa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 237
+      objectReference: {fileID: 0}
+    - target: {fileID: 4124446149451619070, guid: a2dfe3ebf3f741240b40762e543c76fa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4124446149451619070, guid: a2dfe3ebf3f741240b40762e543c76fa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4124446149451619070, guid: a2dfe3ebf3f741240b40762e543c76fa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4124446149451619070, guid: a2dfe3ebf3f741240b40762e543c76fa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4124446149451619070, guid: a2dfe3ebf3f741240b40762e543c76fa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4124446149451619070, guid: a2dfe3ebf3f741240b40762e543c76fa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4124446149451619070, guid: a2dfe3ebf3f741240b40762e543c76fa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4124446149451619070, guid: a2dfe3ebf3f741240b40762e543c76fa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a2dfe3ebf3f741240b40762e543c76fa, type: 3}

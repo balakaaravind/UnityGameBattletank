@@ -29,6 +29,7 @@ public class TankSpwaner : MonoBehaviour, IPointerUpHandler
     private float movement;
 
     private float rotation;
+
     public bool Pressed;
 
     protected Joystick Joystick;
